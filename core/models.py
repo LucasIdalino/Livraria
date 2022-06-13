@@ -1,7 +1,5 @@
-from email.policy import default
-from statistics import mode
-from tabnanny import verbose
 from django.db import models
+from django.db.models import F
 from django.contrib.auth.models import User
 
 
@@ -29,6 +27,7 @@ class Autor(models.Model):
     def __str__(self):
         return self.nome
 
+
 class Livro(models.Model):
     título = models.CharField(max_length=100)
     ISBN = models.CharField(max_length=20)
@@ -39,7 +38,7 @@ class Livro(models.Model):
     autores = models.ManyToManyField(Autor, related_name='livros')
 
     def __str__(self):
-        return '%s  (%s)' %(self.título, self.editora)
+        return '%s  (%s)' % (self.título, self.editora)
 
 
 class Compra(models.Model):
@@ -53,5 +52,15 @@ class Compra(models.Model):
     usuario = models.ForeignKey(User, on_delete=models.PROTECT, related_name='compras')
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
 
+    @property
+    def total(self):
+        queryset = self.itens.all().aggregate(
+            total=models.Sum(F('quantidade') * F('livro__preço'))
+        )
+        return queryset['total']
 
-    
+
+class ItensCompra(models.Model):
+    compra = models.ForeignKey(Compra, on_delete=models.CASCADE, related_name='itens')
+    livro = models.ForeignKey(Livro, on_delete=models.PROTECT, related_name='+')
+    quantidade = models.IntegerField()

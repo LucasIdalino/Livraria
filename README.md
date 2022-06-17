@@ -11,3 +11,5 @@ For running API in your browser, after download of the project, in you IDE termi
 Choose `/api/swagger/`.
 
 On the page Livraria go at 'token' and click **post - /token/** . Next click **try it out** and login strcture JSON and write fields username and password.
+
+Copy code token in 'acess' and past in on top the page click in the button 'Authorize' in field value and close.

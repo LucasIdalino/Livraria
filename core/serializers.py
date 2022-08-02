@@ -43,6 +43,7 @@ class LivroDetailSerializer(ModelSerializer):
         fields = "__all__"
         depth = 1
          
+        
     def get_autores(self, instance):
         nomes_autores = []
         autores = instance.autores.get_queryset()

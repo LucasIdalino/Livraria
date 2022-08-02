@@ -6,7 +6,7 @@ authors = ["LucasIdalino <lucasidalino14@hotmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Django = "^4.0.6"
+Django = "3.2.14"
 gunicorn = "^20.1.0"
 whitenoise = "^6.1.0"
 djangorestframework = "^3.13.1"

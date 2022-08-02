@@ -1,18 +1,28 @@
-asgiref==3.5.1; python_version >= "3.8"
-attrs==21.4.0; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7"
-django-cors-headers==3.13.0; python_version >= "3.7"
-django==4.0.4; python_version >= "3.8"
-djangorestframework-simplejwt==5.2.0; python_version >= "3.7"
-djangorestframework==3.13.1; python_version >= "3.6"
-drf-spectacular==0.22.1; python_version >= "3.6"
-gunicorn==20.1.0; python_version >= "3.5"
-inflection==0.5.1; python_version >= "3.6"
-jsonschema==4.6.0; python_version >= "3.7"
-pyjwt==2.4.0; python_version >= "3.7"
-pyrsistent==0.18.1; python_version >= "3.7"
-pytz==2022.1; python_version >= "3.7"
-pyyaml==6.0; python_version >= "3.6"
-sqlparse==0.4.2; python_version >= "3.8"
-tzdata==2022.1; sys_platform == "win32" and python_version >= "3.8"
-uritemplate==4.1.1; python_version >= "3.6"
-whitenoise==6.1.0; python_version >= "3.7"
+asgiref @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/22/46/4d/e9d170f76cad59b81e4568f6b37cce88f46df63c197e476a1020862182/asgiref-3.5.2-py3-none-any.whl
+attrs @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/c4/ee/75/fcd6c2f4c5a1d60b1bcd97014702ca01b3f032fd927d88780b38708409/attrs-21.4.0-py2.py3-none-any.whl
+black @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/fb/a6/45/0a25cda0ddf0c9449f9e1cbe10d49c46e6afa325b92348dcb523dedaff/black-22.6.0-cp310-cp310-win_amd64.whl
+click @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/63/f3/4c/2270b95f4d37b9ea73cd401abe68b6e9ede30380533cd4e7118a8e3aa3/click-8.1.3-py3-none-any.whl
+colorama @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/c2/16/90/5bd8e7ca5465caa39fb4befd804a6c8a0a281f8f290c3387c173072719/colorama-0.4.5-py2.py3-none-any.whl
+Django==3.2.14
+django-cors-headers @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/7e/98/ea/ecd125cf6ff0f07014bedd92ce9dbed1e746ce824a15c6ea1d68d9adfc/django_cors_headers-3.13.0-py3-none-any.whl
+djangorestframework @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/7a/1a/9f/2d5a19ae6bfb95d667e8b4f5046c140bfa7cabbbf75bf9a179d1776aa1/djangorestframework-3.13.1-py3-none-any.whl
+djangorestframework-simplejwt @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/cc/de/6d/584e6b8fb7a5d1b4719e0fc6b5379ea3a4f4acf129795029024d450790/djangorestframework_simplejwt-5.2.0-py3-none-any.whl
+drf-spectacular @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/85/1f/ca/61898948fe84fde390b74eb0200f78b03aa618ceb95bb21e26eb4577b9/drf_spectacular-0.22.1-py3-none-any.whl
+flake8 @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/6b/d8/67/6516837c645c57af9cad7b290e1e6cbe92a126641fa84a5dde6495f3c3/flake8-4.0.1-py2.py3-none-any.whl
+gunicorn @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/9f/68/9f/f1166be9473b4fe2cc59c98fac616db1f94b18662b9055d1ac940374e3/gunicorn-20.1.0-py3-none-any.whl
+inflection @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/92/b6/df/e26ca7531bb4c956521ef088a33fb7056d28ba9305979e3b5831c3200e/inflection-0.5.1-py2.py3-none-any.whl
+jsonschema @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/26/bb/88/de4b78decee7a1a8a4accb654d2f5da08b5945e0b71779b97c55aff54f/jsonschema-4.7.2-py3-none-any.whl
+mccabe @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/a3/d3/68/f7f7115194f6fe8c487def3afa3b089a428f90650cf1b7be71afa83d12/mccabe-0.6.1-py2.py3-none-any.whl
+mypy-extensions @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/2f/c6/09/3e1afdcb75322c65b786e63cd7e879b6be3db36dea78ca376db5483ae4/mypy_extensions-0.4.3-py2.py3-none-any.whl
+pathspec @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/48/a0/9f/f5128d9e11d591bca7a942dd80ec44f9b2de8294775c68e0b99beeef93/pathspec-0.9.0-py2.py3-none-any.whl
+platformdirs @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/ea/8e/52/e5ac2f14474cef8f0fd44b4aa7d6968bfa89442d1b88ab567c446eae70/platformdirs-2.5.2-py3-none-any.whl
+pycodestyle @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/67/1d/0b/aa6ec86495f3fc57e748e006fb36d7b4e65ddaf6de336617166ccad96d/pycodestyle-2.8.0-py2.py3-none-any.whl
+pyflakes @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/ce/06/1e/5fd69e017a941ae783a7e4d3fb29abc5238f0026d7745b4dc26d7e3379/pyflakes-2.4.0-py2.py3-none-any.whl
+PyJWT @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/52/b6/64/671139dabf2879c6a0aa3887212be6f47753d1d97ea1b7644f6103e0c9/PyJWT-2.4.0-py3-none-any.whl
+pyrsistent @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/9a/8a/7a/93cc06fcd23238d9497ff0d52e16ea649074e04aca8bb02adb995143a8/pyrsistent-0.18.1-cp310-cp310-win_amd64.whl
+pytz @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/76/c4/54/e82c514018d400ab72bc3cc53469bd3b519f30e674c7d905fd7c872314/pytz-2022.1-py2.py3-none-any.whl
+PyYAML @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/35/4d/45/b2142abd2ac771fdc795573de08522db0ff795d8e0a5c06f8baf9833e9/PyYAML-6.0-cp310-cp310-win_amd64.whl
+sqlparse @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/10/f5/22/c9c991a71e27c4d8f69907d92cce74a369cbb3183dc4a6d27e2ae4ab0b/sqlparse-0.4.2-py3-none-any.whl
+tomli @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/62/12/b6/6db9ebb9c8e1a6c5aa8a92ae73098d8119816b5e8507490916621bc305/tomli-2.0.1-py3-none-any.whl
+uritemplate @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/2a/d6/11/cd290afd2d0cea58f6e23668fa9814ba18c6fa968dfbd7d280a2f76dc6/uritemplate-4.1.1-py2.py3-none-any.whl
+whitenoise @ file:///C:/Users/Computer/AppData/Local/pypoetry/Cache/artifacts/39/03/50/ad1176a013bab2448267984096fb10e586d64f3dbc5da1ea1bf59171ec/whitenoise-6.2.0-py3-none-any.whl

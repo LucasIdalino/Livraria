@@ -17,7 +17,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'livraria-django.herokuapp.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
